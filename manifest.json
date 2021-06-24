@@ -1,0 +1,30 @@
+{
+
+    "manifest_version": 2,
+    "name": "Reversify",
+    "version": "1.0",
+  
+    "description": "A tool for reverse engineering webpages. Downloads and beautifies js files loaded to the page.",
+    "homepage_url": "https://github.com/lupus-magnus?tab=repositories",
+    "icons": {
+      "48": "public/icons/48.png"
+    },
+  
+    "permissions": [
+      "activeTab"
+    ],
+  
+    "browser_action": {
+      "default_icon": "public/icons/32.png",
+      "default_title": "Reversify",
+      "default_popup": "views/popup/index.html"
+    },
+  
+    "web_accessible_resources": [
+      "beasts/frog.jpg",
+      "beasts/turtle.jpg",
+      "beasts/snake.jpg"
+    ]
+  
+  }
+  
