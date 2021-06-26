@@ -11,7 +11,11 @@
     },
   
     "permissions": [
-      "activeTab"
+      "activeTab",
+      "devtools",
+      "downloads",
+      "webRequest",
+      "browsingData"
     ],
   
     "browser_action": {
@@ -19,12 +23,12 @@
       "default_title": "Reversify",
       "default_popup": "views/popup/index.html"
     },
+
+    "background":{
+      "page": "pages/backgroundPage.html"
+    }
   
-    "web_accessible_resources": [
-      "beasts/frog.jpg",
-      "beasts/turtle.jpg",
-      "beasts/snake.jpg"
-    ]
+  
   
   }
   
